@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    /* background-color: rgb(232, 229, 226); */
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(227, 219, 194);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    text-size-adjust: 3px;
+    position: fixed;
+
+}
+
+/* .body{
+   background-size: rgb(227, 219, 194);
+} */
+
+.logo {
+    margin-left: 20px;
+     color: rgb(87, 71, 49);
+}
+
+.home {
+    margin-left: 800px;
+
+}
+
+.home a {
+    text-decoration: none;
+    color: rgb(87, 71, 49);
+    font-size: 20px;
+}
+
+.about {
+    margin-left: 10px;
+
+}
+
+.about a {
+    text-decoration: none;
+    color: rgb(87, 71, 49);
+    font-size: 20px;
+}
+
+.services {
+    margin-left: 10px;
+
+}
+
+.services a {
+    text-decoration: none;
+    color: rgb(87, 71, 49);
+    font-size: 20px;
+}
+
+.contect {
+    margin-left: 10px;
+
+}
+
+.contect a {
+    text-decoration: none;
+    color: rgb(87, 71, 49);
+    font-size: 20px;
+}
+
+.shop {
+    margin-left: 10px;
+
+}
+
+.shop a {
+    text-decoration: none;
+    color: rgb(87, 71, 49);
+    font-size: 20px;
+}
+
+/* section one */
+
+
+.section1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: rgb(227, 219, 194);
+
+
+}
+
+.petpremium {
+    width: 40%;
+    height: 100vh;
+    background-color: rgb(121, 99, 72);
+    color: black;
+    /* display: flex; */
+    /* justify-content: center; */
+
+
+
+}
+
+.petpremium h1 {
+    margin-top: 300px;
+    margin-left: 150px;
+    font-size: 60px;
+    margin-right: 40px;
+
+
+}
+
+.petpremium button{
+    display: inline-block;
+
+    margin-left: 250px;
+    margin-top: 100px;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 15px;
+    background-color: yellowgreen;
+    
+
+
+}
+
+.petpremium .button:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.petimg img {
+    width: 100%;
+    height: 100vh;
+    object-fit: contain;
+
+}
+
+
+
+
+/* section two nav  */
+
+
+
+.section2heading {
+    color: rgb(87, 71, 49);
+    width: 100%;
+    height: 20px;
+    background-color: rgb(227, 219, 194);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    /* margin-top: 50px; */
+
+}
+
+
+/* section two */
+
+
+
+.section2 {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(227, 219, 194);
+
+}
+
+.sectionimgs {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.hamster h3 {
+    color: rgb(87, 71, 49);
+    margin-top: 10px;
+}
+
+.mousefood {
+    color: rgb(87, 71, 49);
+    margin-top: 10px;
+}
+
+.rabitfood {
+    color: rgb(87, 71, 49);
+    margin-top: 10px;
+}
+/* button */
+.section2 a  {
+
+display: block ;
+align-items: center;
+justify-content: center;
+
+    margin-left: 650px;
+    margin-top: 100px;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 15px;
+    background-color: yellowgreen;
+    text-decoration: none;
+     color: rgb(87, 71, 49);
+    
+
+
+}
+
+/* section three */
+
+.section3img {
+    width: 100% ;
+    height: 100vh ;
+    display: flex;
+    justify-content: center ;
+    align-items: center ;
+}
+
+/* section four */
+
+.section4 {
+    width: 100% ;
+    height: 100vh;
+        background-color: rgb(227, 219, 194);
+        /* font-size: 50px ; */
+
+        display: block ;
+        gap: 50px ;
+
+}
+.section4heading{
+    /* margin-top: 50px ; */
+    margin-left: 650px ;
+    font-size: 20px ;
+      color: rgb(87, 71, 49);
+
+}
+.sectiom4content{
+    display: flex ;
+    margin-left: 300px ;
+    margin-right: 300px ;
+    font-size: 35px ;
+      color: rgb(90, 72, 46);
+}
+
+.slider{
+    width: 100%;
+    overflow: hidden;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background:  rgb(227, 219, 194);
+    padding: 15px 0;
+}
+
+.slide-track{
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll 10s linear infinite;
+}
+
+.slide-track span{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 20px;
+    color: #333;
+}
+
+@keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+.offer {
+    background-image: url(./pet\ img/alll.avif);
+    width: 100%;
+    height: 100vh;
+    color:  rgb(90, 72, 46);
+    
+
+
+}
+.Limited h3 {
+    
+    margin-left: 650px;
+        color:  rgb(90, 72, 46);
+}
+.Limited h1 {
+    margin-left: 620px;
+        color:  rgb(90, 72, 46);
+}
+.Limited h2 {
+    margin-left: 500px;
+        color:  rgb(90, 72, 46);
+}
+.Limited button{
+    margin-left: 650px;
+        color:  rgb(90, 72, 46);
+
+        margin-left: 650px;
+    
+    margin-top: 100px;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 15px;
+    background-color: yellowgreen;
+
+}
