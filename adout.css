@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    /* background-color: rgb(232, 229, 226); */
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(227, 219, 194);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    text-size-adjust: 3px;
+    position: fixed;
+
+}
+
+/* .body{
+   background-size: rgb(227, 219, 194);
+} */
+
+.logo {
+    margin-left: 20px;
+     color: rgb(87, 71, 49);
+}
+
+.home {
+    margin-left: 800px;
+
+}
+
+.home a {
+    text-decoration: none;
+    color: rgb(87, 71, 49);
+    font-size: 20px;
+}
+
+.about {
+    margin-left: 10px;
+
+}
+
+.about a {
+    text-decoration: none;
+    color: rgb(87, 71, 49);
+    font-size: 20px;
+}
+
+.services {
+    margin-left: 10px;
+
+}
+
+.services a {
+    text-decoration: none;
+    color: rgb(87, 71, 49);
+    font-size: 20px;
+}
+
+.contect {
+    margin-left: 10px;
+
+}
+
+.contect a {
+    text-decoration: none;
+    color: rgb(87, 71, 49);
+    font-size: 20px;
+}
+
+.shop {
+    margin-left: 10px;
+
+}
+
+.shop a {
+    text-decoration: none;
+    color: rgb(87, 71, 49);
+    font-size: 20px;
+}
