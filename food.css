@@ -3,12 +3,15 @@
     box-sizing: border-box;
     padding: 0;
     /* background-color: rgb(232, 229, 226); */
-     background-color: rgb(227, 219, 194);
+    /* background-color: rgb(228, 231, 237); */
 }
-.main{
-       color: rgb(87, 71, 49);
-    
+
+.main {
+    color: rgb(87, 71, 49);
+    background-color: white;
+
 }
+
 .navbar {
     width: 100%;
     height: 80px;
@@ -42,7 +45,7 @@
 }
 
 .about {
-    margin-left: 10px;
+    margin-left: 20px;
 
 }
 
@@ -53,7 +56,7 @@
 }
 
 .services {
-    margin-left: 10px;
+    margin-left: 20px;
 
 }
 
@@ -64,7 +67,7 @@
 }
 
 .contect {
-    margin-left: 10px;
+    margin-left: 20px;
 
 }
 
@@ -75,7 +78,7 @@
 }
 
 .shop {
-    margin-left: 10px;
+    margin-left: 20px;
 
 }
 
@@ -85,6 +88,7 @@
     font-size: 20px;
 }
 
+
 /* all prduct start  */
 
 
@@ -92,7 +96,7 @@
     width: 100%;
     height: 50vh;
     display: flex;
-    
+
 
 
 }
@@ -102,27 +106,31 @@
 .productitems {
     width: 100%;
     height: auto;
-   background-color: rgb(227, 219, 194);
-   margin-top: 80px;
-   /* margin-left: 300px; */
-    
-    
+    background-color: white;
+    margin-top: 80px;
+    /* margin-left: 300px; */
+    /* text-decoration: none; */
+
+
 }
-.productitems h1{
+
+.productitems h1 {
     margin-left: 20px;
     margin-top: 50px;
 }
-.productitems h3{
+
+.productitems h3 {
     margin-left: 20px;
 }
-.productitems h4{
+
+.productitems h4 {
     margin-left: 20px;
     margin-top: 100px;
 }
 
 
 /* all product */
-.items{
+.items {
     width: 100%;
     height: 100vh;
     /* margin-left: 150px; */
@@ -130,10 +138,11 @@
     align-items: center;
     justify-content: space-evenly;
 
-    
-    
+
+
 }
-.item2{
+
+.item2 {
     width: 100%;
     height: 100vh;
     /* margin-left: 150px; */
@@ -141,14 +150,68 @@
     align-items: center;
     justify-content: space-evenly;
 
-    
-    
+
+
 }
-.item3{
+
+.item3 {
     width: 100%;
     height: 100vh;
     /* margin-left: 150px; */
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+
+.hamster a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.mousefood a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.rabbitfood a {
+    text-decoration: none;
+    color: black;
+}
+
+.salman a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.tuna a {
+    text-decoration: none;
+    color: black;
+
+
+}
+
+.activa a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.indoor a {
+    text-decoration: none;
+    color: black;
+}
+
+.protein a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.chicken a {
+    text-decoration: none;
+    color: black;
+
 }

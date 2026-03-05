@@ -83,90 +83,77 @@
 }
 
 
-/* aboudt content  */
+
+/* main concact */
 
 
-.aboutitem {
-    display: flex;
-    width: 100%;
+.contactitem{
+    width: 100% ;
     height: 100vh;
-    /* justify-content: center; */
-    align-items: center;
-
-    
-}
-.aboutimg{
-    width: 50%;
-    /* position: fixed; */
-    display: block;
-    /* margin-top: 150px; */
-    
-
-}
-.aboutcontent{
-    width: 50%;
-    height:100vh;
-    background-color: rgb(159, 203, 231);
-    color: black;
-    /* display : */
-    margin-top: 150px;
-
-    
-}
-.aboutcontent h1 {
-    margin-top: 50px ;
-    margin-left: 50px;
-    font-size: 50px;
-    
-}
-.aboutcontent h2 {
-    margin-top: 50px ;
-    margin-left: 50px;
-    font-size: 30px;
-    
-}
-.aboutcontent p {
-    /* margin-top: 10px; */
-    margin-left: 50px;
-    font-size: 20px;
-}
-
-.aboutcontent a {
-    /* display: inline-block; */
-    display: block;
-
-
-    margin-left: 250px;
-    margin-top: 100px;
-    width: 150px;
-    height: 50px;
-    border-radius: 25px;
-    font-size: 20px;
-    background-color: yellowgreen;
-    text-decoration: none;
-
-
-}
-
-
-.aboutcontent .button:hover {
-    background-color: black;
-    color: white;
-}
-
-
-.footer{
-    width: 100%;
-    height: 50vh;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: rgb(142, 164, 164);
-    
+    /* justify-content: center;
+    align-items: center; */
+
 }
-.a {
-    /* border: 1px solid black; */
+
+
+/* .contactimg{
+    height: 100vh;
+    width: 50%;
+
+} */
+
+.contactform{
+    background-color: lightblue;
+    height: 100vh;
+    width: 50%;
+    color: black;
+    /* margin-top: 80px; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+
+}
+.contactform h1 {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+
+/* #username{
+    gap: 50px;
+    margin-left: 50px;
+} */
+
+
+.contactform label {
+    /* gap: 500px; */
+    margin-left: 200px;
+    margin-top: 50px;
+    /* display: flex; */
+  
+}
+.contactform input {
+    margin-left: 150px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    background-color: lightblue;
     width: 200px;
-    height: 200px;
-    margin-top: 100px;
+}
+.contactform button {
+    margin-left: 250px;
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: yellowgreen;
+    color: black;
+    font-size: 15px;
+
+}
+.contactform button:hover {
+    background-color: rgb(88, 74, 115);
+    color: white;
 }
